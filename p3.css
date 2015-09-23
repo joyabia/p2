@@ -4,8 +4,8 @@ body{
 #password_gen{
 	
 	padding: 10px;
-	font; 20px;
-	font-weight: 10;
+	/*font: 20px;
+	font-weight: 10;*/
 }
 
 #header {text-align:center;
@@ -14,10 +14,13 @@ box-shadow:0px 10px 18px 0px rgba(0, 0, 0, 0.64);
 height: 56px;
 }
 
+#header_sidebar{
+	text-align: center;
+}
 
 
 p{
-	font-size: .7em;
+	font-size: 1em;
 	text-align: justify;
 	margin-right: .7em;
 	margin-left: .7em;
@@ -31,8 +34,7 @@ p{
 form{
 	width: 80%;
 	margin: auto;
-	font-size: .8em;
-}
+	}
 
 #button_div{
 	padding-left: 10em;

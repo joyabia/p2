@@ -66,7 +66,7 @@ session_start();
   <div class="form-group">
    
 <label class="label-class"> Number of words:</label>
-<input type="text" class="form-control" name="numwords" id="numwords" placeholder="3" onfocus="this.placeholder='';">
+<input type="text" class="form-control" name="numwords" id="numwords" placeholder="3" onfocus="this.placeholder='';" required>
   </div><!--close div for number of words field-->
 
 
@@ -74,7 +74,7 @@ session_start();
   <div class="form-group">
     <label class="label-class"> Include a separator (+, #, -,...):</label>
     <select class="form-control" name="separator">
-      <option>&nbsp;</option>
+      <option></option>
       <option>-</option>
       <option>+</option>
       <option>$</option>
