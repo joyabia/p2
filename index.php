@@ -103,6 +103,7 @@ session_start();
 
 </div><!-- close row form section-->
 
+<?php echo date('D M d'); ?>
 
   <div class="col-md-2">
   </div><!--close col-sm-2-->
