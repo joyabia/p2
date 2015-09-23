@@ -59,7 +59,7 @@ session_start();
 
   <div class="form-group">
     <label class="label-class">Generated Password:</label>
-    <input type="text" class="form-control" name="gen_password" value="<?php echo $_SESSION['gen_password']?>" id="gen_password" placeholder="copy generated password from here" readonly>
+    <input type="text" class="form-control" name="gen_password" value="<?php if(isset($_SESSION['gen_password'])) echo $_SESSION['gen_password'];?>" id="gen_password" placeholder="copy generated password from here" readonly>
   
   </div><!--close div for gen password field-->
 
